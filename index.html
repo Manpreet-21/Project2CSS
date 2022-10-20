@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Guide
+    </title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="NAV">
+        <nav>
+            <h2 class="Heading">Sarna Coffee</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+
+                <li><a href="Product.html">Products</a></li>
+
+
+
+                <li><a href="Delivery.html">Delivery</a></li>
+
+
+            </ul>
+            <button type="button"><i class="fa fa-shopping-cart"></i></button>
+            <!-- Shop cart button https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-shopping-cart  -->
+        </nav>
+    </div>
+    <br><br>
+
+    <h1>Sarna Coffee</h1>
+
+    <p>Sarna Coffee is a local coffee shop which would allow you to give out a taste of fresh coffee. Our store also has
+        a delivery option for coffee beans of many types. We want to give our customers best experience possible, be it
+        at home or having their coffee in person </p>
+
+    <p>This style guide will give out a personalized </p>
+
+    <section class="element">
+        <h3>NavBar</h3>
+        <!-- <div class="right">
+            <section id="navBar">
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </section>
+        </div> -->
+        <div class="NAV">
+            <nav>
+                <h2 class="Heading">Sarna Coffee</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+
+                    <li><a href="Product.html">Products</a></li>
+
+
+
+                    <li><a href="Delivery.html">Delivery</a></li>
+
+
+                </ul>
+                <button type="button"><i class="fa fa-shopping-cart"></i></button>
+                <!-- Shop cart button https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-shopping-cart  -->
+            </nav>
+        </div>
+
+
+    </section>
+    <br><br><br>
+    <code> Sample Code: &lt;li&gt; &lt;a href="#"&gt;  &lt;/a&gt; &lt;/li&gt; </code>
+
+
+    <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+        <p>Format for all the Buttons in the website would be the same as the submit and reset buttons. </p>
+        <div class="buttons">
+            <form action="noaction.php">
+                <button class="btn" type="submit">Submit</button>
+                <button class="btn" type="reset">Reset</button>
+            </form>
+
+        </div>
+        <br><br><br>
+        <code>Sample Code:&lt;div&gt;class="buttons"&gt; &lt;form action=" " &gt;  &lt;/a&gt; &lt;/button&gt;</code>
+    </section>
+
+    <section class="element">
+        <h3>In text Links</h3>
+        <p>Here these In Text Links will be used for having certain elements highlighted. Like when they click on some
+            type of coffee in the coffee info or they want to remove something from cart, this is how its going to look.
+        </p>
+        <div class="IntextLink">
+            <p>In text link</p>
+
+            <code> Sample Code:  CSS: .IntextLink p:hover{ font-weight:600;
+                color:solid #A0605E;
+                cursor: pointer;
+                text-decoration: none; } </code>
+        </div>
+    </section>
+
+    <section class="element">
+        <h3>Text Input Fields</h3>
+        <p>Here I would show out an example of how our Delivery/Checkout page would look like.</p>
+
+        <div class="Details">
+            <div class="Forms">
+                <h2 class="HeadingF">
+                    Enter your Delivery Details
+                </h2>
+                <div class="names">
+                    <div class="FirstName">
+                        <form>
+                            <label for="fname">First name</label><br>
+                            <input type="text" id="fname" name="fname" placeholder="Enter your name">
+
+
+                        </form>
+                    </div>
+                    <div class="LastName">
+                        <form>
+                            <label for="lname">Last name</label><br>
+                            <input type="text" id="lname" name="lname" placeholder="Enter your Last name">
+
+
+                        </form>
+                    </div>
+
+                </div>
+                <div class="AddressGrids">
+                    <div class="Address">
+                        <form>
+                            <label for="Address">Address</label><br>
+                            <input type="text" id="Address" name="Address" placeholder="Enter your Address">
+
+                        </form>
+                    </div>
+                </div>
+
+                <div class="CityPostal">
+                    <div class="City">
+                        <form>
+                            <label for="City">City</label><br>
+                            <input type="text" id="City" name="City" placeholder="Enter your City">
+
+                        </form>
+                    </div>
+                    <div class="PostalCode">
+                        <form>
+                            <label for="PostalCode">Postal Code</label><br>
+                            <input type="text" id="PostalCode" name="PostalCode" placeholder="Enter your Postal Code">
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="CardDetails">
+            <h2 class="HeadingF1">
+                Enter your Card Details
+
+            </h2>
+
+            <div class="CardNumberGrids">
+                <div class="CardNumber">
+                    <form>
+                        <label for="CardNumber">Card Number</label><br>
+                        <input type="number" id="CardNumber" name="CardNumber"
+                            placeholder="Enter your 10 digits with no spaces">
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="DateYearCVV">
+                <div class="Date">
+                    <form>
+                        <label for="Date">Month</label><br>
+                        <input type="text" id="Date" name="Date" placeholder="Enter Month Expiry">
+
+                    </form>
+                </div>
+                <div class="Year">
+                    <form>
+                        <label for="Year">Year</label><br>
+                        <input type="text" id="Year" name="Year" placeholder="Enter Year Expiry">
+
+                    </form>
+                </div>
+                <div class="CVV">
+                    <form>
+                        <label for="CVV">CVV</label><br>
+                        <input type="text" id="CVV" name="CVV" placeholder="Enter CVV(3 digit)">
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <br><br><br>
+        <code>Sample Code:&lt;label &gt;for="#"&gt; label&lt;input type="text" id="CVV" name="CVV" placeholder="Enter CVV(3 digit)"&gt;  &lt;/a&gt; &lt;/button&gt;</code>
+    </section>
+
+    <section class="element">
+        <div class="Combined">
+
+
+            <h3>Combined Elements</h3>
+            <h4>Product Listing</h4>
+            <p>For Radio Button, I will have the customer select the size for the coffee. Below is the example from the
+                product page.</p>
+            <p>Within this I would use the grid like structure to represent the product.
+                In order to refer the basic layout, go to the Products page to have a basic idea of how the products
+                would look.
+            </p>
+
+
+            <img src="images/image4.png" alt="Grid">
+        </div>
+    </section>
+
+    <section class="element">
+        <div class="ColorPallete">
+            <h3>Color pallette</h3>
+            <p>Using a harmonious light color scheme to blend in and have a bit different look from the other usual
+                coffee shops. Bright colours being used for attraction with the aim of having Maximum User Retention</p>
+            <img src="images/ColorPallete.png" alt="ColorPallete">
+        </div>
+    </section>
+
+
+    <section class="element">
+        <div class="Fonts">
+            <h2>Fonts</h2>
+            <h3>Poppins</h3>
+
+            <p>Used this font because it gives out a sense to be both playful and professionalism which is necessary for
+                a coffee shop in order to attract customers.</p>
+            <!-- Citation: Singleton, A. (n.d.). Design trends: My favorite fonts right now. Inbound Marketing Agency. Retrieved October 16, 2022, from https://www.smartbugmedia.com/blog/design-trends-fonts#:~:text=Poppins%20is%20geometric%20in%20style,to%20improve%20readability%20and%20style.   -->
+            <p>Below are certain Heading structures</p>
+
+
+            <h2>Sarna Coffee</h2>
+            <h3>Sarna Coffee</h3>
+            <h4>Sarna Coffee</h4>
+
+        </div>
+    </section>
+
+    <section class="element">
+        <h2>Imagery</h2>
+        <p>All the imagery was taken from Pexels.com which is a free stock photo website</p>
+        <div class="Imagery">
+            <!-- Citation 
+            Dzedyshko, M. (2018). Cup of cappuccino · free stock photo - PEXELS. Pexels. Retrieved October 16, 2022, from https://www.pexels.com/photo/cup-of-cappuccino-2067399/ 
+Ibrahimzade, F. (2021). Chocolate frappuccino with oreo toppings · Free Stock Photo. Pexels. Retrieved October 16, 2022, from https://www.pexels.com/photo/chocolate-frappuccino-with-oreo-toppings-8743859/ 
+Setiawan, A. (2020). Frappuccino on a wooden tray · free stock photo - pexels.com. Pexels. Retrieved October 16, 2022, from https://www.pexels.com/photo/frappuccino-on-a-wooden-tray-10066803/ 
+Singleton, A. (n.d.). Design trends: My favorite fonts right now. Inbound Marketing Agency. Retrieved October 16, 2022, from https://www.smartbugmedia.com/blog/design-trends-fonts#:~:text=Poppins%20is%20geometric%20in%20style,to%20improve%20readability%20and%20style.  -->
+
+
+            <div class="Image">
+                <img src="images/coffee.jpg" alt="Coffee">
+            </div>
+            <div class="Image">
+                <img src="images/latte.jpg" alt="Coffee">
+
+            </div>
+            <div class="Image">
+                <img src="images/Frap.jpg" alt="Coffee">
+            </div>
+            <div class="Image">
+                <img src="images/Fruit.jpg" alt="Coffee">
+            </div>
+
+        </div>
+
+    
+    </section>
+    <code>Sample Code:&lt;img &gt;src="#"&gt; &lt;/img&gt;</code>
+
+
+
+</body>
+
+</html>

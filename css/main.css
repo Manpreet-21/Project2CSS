@@ -1,0 +1,395 @@
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* padding: 2rem; */
+  /* color:#863a0d; */
+  /* background-color: #863a0dd4; */
+
+}
+
+.NAV{
+  height:15vh;
+  width:100%;
+  background-color: #B08762;
+  background-size: cover;
+  
+
+}
+ nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-top: 40px; */
+  padding-left: 1%;
+  padding-right: 10%;
+
+}
+
+.Heading{
+  color:white;
+  font-size: 2em;
+  font-weight: bold;
+  /* padding-left: 0%;  */
+}
+nav ul li{
+list-style-type: none;
+  display: inline-block;
+  /* padding:0px 20x; */
+}
+nav ul li a{
+  color:white;
+  text-decoration: none;
+  padding:15px;
+}
+nav ul li a:hover{
+  color:#863a0dd4;
+}
+nav button{
+  border:none;
+  color:white;
+  background: none; 
+  font-size: 1.5em;
+}
+nav button:hover{
+  color:black;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+@media(min-width:60rem)
+{
+  .Nav
+  {background-color: #B08762;
+    position: absolute;
+    padding: 2px;
+
+  }
+
+}
+
+
+/* This will be to the right side of the screen
+  And this section will be for the Navbar */
+.right {
+  background-color: #B08762;
+  position: absolute;
+  padding: 2px;
+}
+
+#navBar {
+  display: inline-block;
+  /* background-color: #B08762;  */
+
+
+
+
+}
+
+#navBar li {
+  display: inline-block;
+
+  padding: 2px;
+
+
+
+
+}
+
+#navBar li a {
+  text-decoration: none;
+  color: white;
+  background-color: #B08762;
+  /* border: 1px solid white; */
+  padding-right: 30px;
+
+}
+
+#navBar li a:hover,
+a:focus {
+  color: black;
+}
+
+/* Buttons section  */
+
+ .buttons .btn {
+  background-color: #A0605E;
+  border: none;
+  color: white;
+  padding: 6px 20px;
+  border-radius: 8px;
+  font-size: 1em;
+
+  cursor: pointer;
+
+
+}
+.buttons .btn:hover{
+  background-color: #cf807e;
+}
+
+
+/* Intext Links */
+.IntextLink p{
+  color:#cf807e;
+  text-decoration: underline;
+}
+.IntextLink p:hover{
+font-weight:600;
+color: #A0605E;
+cursor: pointer;
+text-decoration: none;
+}
+/* Referred From https://stackoverflow.com/questions/54156419/how-to-fit-text-box-into-minimize-screen  */
+/* #Form{
+  border-radius: 50px;
+  border: 1px solid;
+  background-color: #A0605E;
+  padding: 10px; 
+  width:50%;
+  padding: 1.5em;
+    width: 24%;
+    height: 20%;
+ 
+  
+  height: 20%;  
+}
+#Form .HeadForm
+{
+  width:40%;
+  
+}
+.form-group
+{
+
+  
+width:40%;
+padding-left: 9em;
+} */
+@media (min-width:60rem)
+{
+  .Contact-Us{
+    margin:0rem 10rem;
+    border: 2px solid black;
+  }
+}
+.Contact-Us img{
+  width:100%;
+ 
+}
+/* This is for Forms */
+.flex-container{
+  display:inline-flex;
+  flex-wrap: wrap;
+  background-color: #f1f1f1;
+  margin-left:30rem;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.Details{
+  display:inline-flex;
+  flex-wrap: wrap;
+  background-color: #f1f1f1;
+  width: 45%;
+  margin-left:28rem;
+  /* margin-right: 33rem; */
+  align-items: center;
+  margin-bottom: 1em;
+}
+.CardDetails{
+  display:inline-flex;
+  flex-wrap: wrap;
+  background-color: #f1f1f1;
+  width: 45%;
+  margin-left:28rem;
+  /* margin-right: 33rem; */
+  align-items: center;
+}
+.names{
+  display: grid;
+  margin-bottom: 1em;
+  
+  grid-template-areas: "FirstName LastName " ;
+}
+
+@media(min-width:25rem)
+{
+  .names{
+    
+    column-gap: 1rem;
+    font-size: 1rem;
+    
+  }
+  
+}
+
+input{
+    border-radius: 5px;
+padding:4px;
+width:25em;
+    border-color: #B08762;
+}
+.FirstName{
+  grid-area: FirstName;
+  margin-left: 30em;
+}
+.LastName{
+  grid-area: LastName;
+  margin-right:30em;
+}
+
+.HeadingF
+{
+    margin-left: 20em;
+}
+
+.Forms
+{
+    margin-left: -29em;
+}
+/* Addresses  */
+.Address
+{
+    grid-area: Address;
+    margin-bottom: 1em;
+    /* margin-right: 23em; */
+}
+
+.AddressGrids
+{
+    display: grid;
+}
+.Address input{
+    width: 53em;
+
+}
+/* Postal Code  */
+.CityPostal{
+    display: grid;
+    margin-bottom: 1em;
+  
+  grid-template-areas: "City PostalCode" ;
+}
+.City{
+    grid-area: City;
+    margin-left: 30em;
+  }
+  .PostalCode{
+    grid-area: PostalCode;
+    margin-right:29em;
+  }
+
+.HeadingF1
+{
+    margin-left: 1em;
+}
+  .CardNumberGrids
+{
+    grid-area: CardNumber;
+    margin-bottom: 1em;
+    /* margin-right: 23em; */
+}
+
+.CardNumber
+{
+    display: grid;
+    margin-left: 1em;
+}
+.CardNumber input{
+    width: 53em;
+
+}
+
+
+.DateYearCVV{
+    display: grid;
+    margin-bottom: 1em;
+    
+    grid-template-areas: "Date Year CVV" ;
+  }
+  .DateYearCVV input{
+    width: 16.3em;
+
+}
+
+.Date{
+    grid-area: Date;
+    margin-left: 1em;
+    margin-right:1em;
+  }
+  .Year{
+    grid-area: Year;
+    margin-right:31em;
+  }
+  .CVV{
+    grid-area: CVV;
+    margin-left:-30em;
+  }
+
+  /* Combined Elements Example */
+  .Combined img{
+    width: 100%;
+  }
+  .ColorPallete img{
+    width:80%;
+  }
+  .Imagery{
+    
+      /* Initialize Flex Box  */
+     
+    
+    
+      display: flex;
+      flex-direction: row;
+      /* justify-content: flex-start; */
+      /* flex-wrap: wrap; */
+      flex-flow: row wrap;
+    
+    
+    
+    
+    
+    
+    
+      /* display: inline; */
+    
+  }
+  .Imagery .Image {
+    box-sizing: border-box;
+    /* width:50%; */
+    /* height: 200px; */
+    /* width: 200px; */
+    /* width: 200px; */
+    /* width: 100%; */
+    /* border: 2px solid red; */
+  
+  
+  
+  
+    /* display: inline; */
+    /* box-sizing: border-box; */
+  
+  }
+  
+  .Image {
+    margin: 10px;
+    padding: 2px;
+  }
+  
+  .Imagery .Image img {
+    width:500px;
+    height:500px;
+    padding: 0.5rem;
+  
+  
+  }

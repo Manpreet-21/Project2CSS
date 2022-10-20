@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery</title>
+    <link href="css/Delivery.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <div class="NAV">
+        <nav>
+            <h2 class="Heading">Sarna Coffee</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+
+                <li><a href="Product.html">Products</a></li>
+
+
+
+                <li><a href="Delivery.html">Delivery</a></li>
+
+
+            </ul>
+            <button type="button"><i class="fa fa-shopping-cart"></i></button>
+            <!-- Shop cart button https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-shopping-cart  -->
+        </nav>
+    </div>
+    <br><br>
+    <h2 class="Heading1"> Order Summary</h2><br><br>
+    <div class="flex-container">
+        <div class="random">
+            <p></p>
+        </div>
+        <div class="images">
+            <img src="images/coffeenobg.png" alt="Coffee">
+
+        </div>
+    
+        <div class="Summary">
+            <h2 class="SummaryOrder">Coffee</h2>
+            <p>Size:Small <br>Modifications: Cream No Sugar</p>
+            <p>Price: 3.5$ <br>Taxes:0.4$ <br> <strong>Total Price: 3.9$</strong></p>
+            <p class="remove">Remove Item</p>
+        </div>
+        
+    </div>
+    <div class="Details">
+        <div class="Forms">
+            <h2 class="HeadingF">
+                Enter your Delivery Details
+            </h2>
+            <div class="names">
+                <div class="FirstName">
+                    <form>
+                        <label for="fname">First name</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="Enter your name">
+
+                        
+                    </form>
+                </div>
+                <div class="LastName">
+                    <form>
+                        <label for="lname">Last name</label><br>
+                        <input type="text" id="lname" name="lname" placeholder="Enter your Last name">
+
+                        
+                    </form>
+                </div>
+                
+            </div>
+            <div class="AddressGrids">
+                <div class="Address">
+                    <form>
+                        <label for="Address">Address</label><br>
+                        <input type="text" id="Address" name="Address" placeholder="Enter your Address">
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="CityPostal">
+                <div class="City">
+                    <form>
+                        <label for="City">City</label><br>
+                        <input type="text" id="City" name="City" placeholder="Enter your City">
+
+                    </form>
+                </div>
+                <div class="PostalCode">
+                    <form>
+                        <label for="PostalCode">Postal Code</label><br>
+                        <input type="text" id="PostalCode" name="PostalCode" placeholder="Enter your Postal Code">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="CardDetails">
+        <h2 class="HeadingF1">
+            Enter your Card Details
+
+        </h2>
+
+        <div class="CardNumberGrids">
+            <div class="CardNumber">
+                <form>
+                    <label for="CardNumber">Card Number</label><br>
+                    <input type="number" id="CardNumber" name="CardNumber" placeholder="Enter your 10 digits with no spaces">
+
+                </form>
+            </div>
+        </div>
+
+        <div class="DateYearCVV">
+            <div class="Date">
+                <form>
+                    <label for="Date">Month</label><br>
+                    <input type="text" id="Date" name="Date" placeholder="Enter Month Expiry">
+
+                </form>
+            </div>
+            <div class="Year">
+                <form>
+                    <label for="Year">Year</label><br>
+                    <input type="text" id="Year" name="Year" placeholder="Enter Year Expiry">
+
+                </form>
+            </div>
+            <div class="CVV">
+                <form>
+                    <label for="CVV">CVV</label><br>
+                    <input type="text" id="CVV" name="CVV" placeholder="Enter CVV(3 digit)">
+
+                </form>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="Ending">
+        <div class="Checkout">
+            <form action="noaction.php">
+                <button class="btn" type="button">Buy Now</button>
+                <!-- <button class="btn" type="button">Add to Cart</button> -->
+            </form>
+
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* padding: 2rem; */
+
+    /* color:#863a0d; */
+    /* background-color: #863a0dd4; */
+  
+  }
+  
+  .NAV{
+    height:15vh;
+    width:100%;
+    background-color: #B08762;
+    background-size: cover;
+    
+  
+  }
+   nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 40px; */
+    padding-left: 1%;
+    padding-right: 10%;
+  
+  }
+  
+.Heading{
+    color:white;
+    font-size: 2em;
+    font-weight: bold;
+    /* padding-left: 0%;  */
+  }
+  .Heading1{
+    color:black;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    /* padding-left: 0%;  */
+  }
+  nav ul li{
+  list-style-type: none;
+    display: inline-block;
+    /* padding:0px 20x; */
+  }
+  nav ul li a{
+    color:white;
+    text-decoration: none;
+    padding:15px;
+  }
+  nav ul li a:hover{
+    color:#863a0dd4;
+  }
+  nav button{
+    border:none;
+    color:white;
+    background: none; 
+    font-size: 1.5em;
+  }
+  nav button:hover{
+    color:black;
+  }
+  .IntextLink p{
+    color:#cf807e;
+    text-decoration: underline;
+  }
+ 
+  .flex-container{
+    display:inline-flex;
+    flex-wrap: wrap;
+    background-color: peachpuff;
+  }
+  .flex-container > div{
+    background-color: #f1f1f1;
+  margin: 20px;
+  padding: 0.57em;
+  font-size: 30px;
+  }
+  .boxheading{
+   text-align: center;
+  }
+ 
+  label
+  {
+    font-size: 0.9rem;
+  }
+  .labelHead{
+    text-align: center;
+  }
+ .center{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+ }
+  img{
+   
+    width: 60%;
+    height:200px;
+  }
+  
+  .labelHead label{
+    font-size: large;
+  }
+
+ .Checkout .btn {
+    background-color: #A0605E;
+    border: none;
+    color: white;
+    padding: 7px 45px;
+    border-radius: 8px;
+    font-size: 0.5em;
+ 
+    cursor: pointer;
+  
+  
+  }
+  .Checkout .btn:hover{
+    background-color: #cf807e;
+  }
+  
+
+
+ 
+  
